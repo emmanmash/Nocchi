@@ -1,0 +1,87 @@
+.products-grid .actions {
+position: static;
+}
+
+.category-products .product-options-block {
+float: left;
+padding: 0 0 10px 0;
+width: 100%;
+}
+
+.product-options-block label {
+float: left;
+width: 100%;
+}
+.product-options-block label.required em {
+color: #EB340A;
+margin-right: 5px;
+}
+
+.product-options-block select {
+padding: 1px;
+float: left;
+margin-bottom: 10px;
+}
+
+.product-options-block .colorswatchconf-icon-set {
+float: left;
+margin: 5px 0 15px 1px;
+width: 100%;
+}
+.product-options-block .colorswatchconf-icon-set .colorswatchconf-icon-item {
+float: left;
+margin: 0 5px 5px 0;
+position: relative;
+cursor: pointer;
+}
+.product-options-block .colorswatchconf-icon-set .colorswatchconf-icon-item img {
+border:#333 3px solid;
+width:25px;
+height:25px;
+margin: 1px;
+}
+
+.product-options-block .colorswatchconf-icon-set .colorswatchconf-icon-item.active img {
+border:#444645 5px solid;
+}
+.product-options-block .colorswatchconf-icon-set .colorswatchconf-icon-item.disabled {
+opacity: 0.1;
+filter: alpha(opacity=10);
+cursor: auto;
+}
+
+span.colorswatchconf-selected-label {
+font-weight: normal;
+padding-left:1px;
+}
+span.colorswatchconf-reload-image-processing {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 2px solid #E4E4E4;
+margin: 140px 0 0 115px;
+padding: 25px 70px;
+position: absolute;
+z-index: 9999;
+}
+.products-list span.colorswatchconf-reload-image-processing {
+margin: 50px 0 0 30px;
+}
+.products-grid span.colorswatchconf-reload-image-processing {
+margin: 50px 0 0 30px;
+}
+/* Product View Video */
+.product-video {
+    overflow: hidden;
+}
+.product-video video {
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.product-video-image {
+    z-index:500;
+    top:0;
+    position:relative;
+    cursor:default;
+}

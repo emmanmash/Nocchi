@@ -1,0 +1,42 @@
+.category-shop-the-look .col-main { opacity: 1; height: auto; }
+
+.category-products { position: static; }
+
+/** Category Product Grid - Product Name, Price, & Color Swatches */
+
+
+.block-layered-nav { position: relative; }
+.block-layered-nav .filter-wrap.open {  border-bottom: 1px solid #DDD; }
+.block-layered-nav .shadow { }
+.block-layered-nav .block-content { position: relative; }
+.block-layered-nav dd {  }
+.block-layered-nav ol li { float:left; position:relative; }
+.block-layered-nav .first { clear:both; }
+.block-layered-nav .currently { display:none; }
+.block-layered-nav ol li img {
+	height: 25px;
+    width: 25px;
+}
+.block-layered-nav ol li a { height: 35px;
+    width: 35px;
+    display: block;
+    font-size: 11px;
+    font: 12px/1.35 "OswaldLight", sans-serif; }
+.block-layered-nav ol li a { text-align:center; line-height:25px; }
+.block-layered-nav ol li:hover a  { text-decoration:none; border-color:#444545; }
+.block-layered-nav ol li.active a { border-color:#444545; }
+.block-layered-nav ol li.active .remove { width:15px; height:15px; background:url('../images/main-sprite.png') -58px -32px no-repeat; position:absolute; top:-4px; right:4px; }
+.block-layered-nav .collapse-btn { bottom:-37px; height:39px; width:79px; background:transparent url('../images/main-sprite.png') -79px -32px no-repeat; position:absolute; z-index:100; right:23px; float: right; font-size:16px; text-transform:uppercase; text-align:center; line-height:35px; }
+
+.block-layered-nav .filter-wrap.collapsed { overflow:hidden; height:0; }
+.block-layered-nav .filter-wrap.collapsed + .collapse-btn { bottom:-38px; }
+.block-layered-nav .filter-wrap.open + .collapse-btn { bottom:-37px; }
+
+.block-layered-nav .collapse-btn:hover { cursor:pointer; }
+
+#category-cms-block.collapsed { height:0; overflow: hidden;}
+
+.catalogsearch-result-index .page-title { display:none; }
+
+#advanced-navigation-overlay { opacity: 0.6; }
+
